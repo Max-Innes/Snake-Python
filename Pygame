@@ -11,6 +11,14 @@ width, height = 1920, 1080
 win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Snake Game")
 
+# Define colors
+white = (255, 255, 255)
+yellow = (255, 255, 102)
+black = (0, 0, 0)
+red = (213, 50, 80)
+green = (0, 255, 0)
+blue = (50, 153, 213)
+
 # Set up clock
 clock = pygame.time.Clock()
 snake_block = 10
