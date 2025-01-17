@@ -1,10 +1,12 @@
-#Create snake using pygame
+import pygame
+pygame.init()
+import time
+import random
 
-#1 Normal
-#2 Normal
-#3 Normal
-#4 Teleport
+# Initialize pygame
+pygame.init()
 
-
-#? Becomes another snake
-#
+# Set up display
+width, height = 1920, 1080
+win = pygame.display.set_mode((width, height))
+pygame.display.set_caption("Snake Game")
