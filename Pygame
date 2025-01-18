@@ -27,3 +27,7 @@ snake_speed = 15
 # Define font style
 font_style = pygame.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
+
+def snake(snake_block, snake_list):
+    for x in snake_list:
+        pygame.draw.rect(win, black, [x[0], x[1], snake_block, snake_block])
